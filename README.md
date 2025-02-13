@@ -16,12 +16,3 @@ A React-based resume builder application that allows users to create their resum
 - CSS3: Styling language for designing the application layout and appearance.
 - JavaScript: Programming language for implementing application logic.
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/shravyaN25/CVCreator.git
-
-2. Deployed Link
-   ```deployed link
-   https://resumecraft.netlify.app/
