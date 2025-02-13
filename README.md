@@ -19,9 +19,9 @@ A React-based resume builder application that allows users to create their resum
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
+```bash
 git clone https://github.com/shravyaN25/CVCreator.git
+
 2. Deployed Link
    ```deployed link
    https://resumecraft.netlify.app/
