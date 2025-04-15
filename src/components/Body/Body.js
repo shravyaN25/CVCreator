@@ -18,8 +18,6 @@ function Body() {
     other: "Other",
   };
   const resumeRef = useRef();
-
-  const [activeColor, setActiveColor] = useState(colors[0]);
   const [resumeInformation, setResumeInformation] = useState({
     [sections.basicInfo]: {
       id: sections.basicInfo,
