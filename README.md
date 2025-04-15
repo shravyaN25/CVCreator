@@ -6,7 +6,7 @@ A React-based resume builder application that allows users to create their resum
 
 - Create a professional resume by filling in text fields for different sections.
 - Drag and drop functionality to rearrange sections within the resume.
-- Save and download the generated resume in various formats.
+- Save and download the generated resume.
 - Responsive design for a seamless experience on different devices.
 
 ## Technologies Used
