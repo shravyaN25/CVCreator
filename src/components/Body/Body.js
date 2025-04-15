@@ -17,7 +17,9 @@ function Body() {
     summary: "Summary",
     other: "Other",
   };
+
   const resumeRef = useRef();
+
   const [resumeInformation, setResumeInformation] = useState({
     [sections.basicInfo]: {
       id: sections.basicInfo,
@@ -57,14 +59,15 @@ function Body() {
   });
 
   return (
+    <div className={styles.container}>
+      <p className={styles.heading}>Resume Builder</p>
+      <div className={styles.toolbar}>
         <ReactToPrint
-          trigger={() => {
-            return (
-              <button>
-                Download <ArrowDown />
-              </button>
-            );
-          }}
+          trigger={() => (
+            <button>
+              Download <ArrowDown />
+            </button>
+          )}
           content={() => resumeRef.current}
         />
       </div>
@@ -78,7 +81,6 @@ function Body() {
           ref={resumeRef}
           sections={sections}
           information={resumeInformation}
-          activeColor={activeColor}
         />
       </div>
     </div>
@@ -86,3 +88,4 @@ function Body() {
 }
 
 export default Body;
+
